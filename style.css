@@ -1,0 +1,37 @@
+.personal img{
+  border-radius: 50%;
+    }
+
+
+  .personal h2{
+    font-size: 25px;
+    }
+
+      .city p{
+      font-size: 17px;
+    }
+
+    .city h3{
+      font-size: 23px;
+  }
+
+    .city img{
+        }
+
+
+
+
+
+table, td, th{
+  border-collapse: collapse;
+  border: 1px solid black;
+    }
+
+  td{
+
+    font: 15px veranda;
+    }
+
+  th{
+  font: 25px veranda;
+  }
