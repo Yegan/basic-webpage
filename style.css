@@ -1,27 +1,25 @@
-body{
-font: veranda;
-
-}
-
 .personal img{
-  border-radius: 50%;
     }
 
 
   .personal h2{
-    font-size: 25px;
-    }
+    font: 25px veranda;
+      }
 
       .city p{
-      font-size: 17px;
+      font: 14px veranda;
     }
 
     .city h3{
-      font-size: 23px;
+      font: 23px veranda;
   }
 
     .city img{
         }
+
+.table h2{
+  font: 20px veranda;
+}
 
 
 table, td, th{
@@ -39,4 +37,12 @@ table, td, th{
   }
 
   .historical img{
+  }
+
+  .historical p{
+    font: 12px veranda;
+  }
+
+  .historical h2{
+    font: 18px veranda;
   }
