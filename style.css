@@ -24,9 +24,6 @@ font: veranda;
         }
 
 
-
-
-
 table, td, th{
   border-collapse: collapse;
   border: 1px solid black;
@@ -39,4 +36,7 @@ table, td, th{
 
   th{
   font: 25px veranda;
+  }
+
+  .historical img{
   }
