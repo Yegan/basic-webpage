@@ -36,12 +36,61 @@ table, td, th{
   font: 25px veranda;
   }
 
-  .historical img{
+  .district-six img{
+    height: 45%;
+    width: 45%;
+    float: right;
   }
 
-  .historical p{
-    font: 12px veranda;
+  .bo-kaap img{
+    height: 45%;
+    width: 45%;
+    float: left;
   }
+
+  .parliament img{
+    height: 45%;
+    width: 45%;
+    float: right;
+  }
+
+  .district-six::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bo-kaap::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .parliament::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  .historical p{
+      font: 12px veranda;
+  }
+
+    .district-six p{
+    padding-right: 4em;
+  }
+
+  .bo-kaap p{
+    padding-left: 14em;
+  }
+
+  .bo-kaap h2{
+    padding-left: 10em;
+  }
+
+
 
   .historical h2{
     font: 18px veranda;
