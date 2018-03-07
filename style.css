@@ -37,21 +37,15 @@ table, td, th{
   }
 
   .district-six img{
-    height: 45%;
-    width: 45%;
-    float: right;
+        float: right;
   }
 
   .bo-kaap img{
-    height: 45%;
-    width: 45%;
-    float: left;
+        float: left;
   }
 
   .parliament img{
-    height: 45%;
-    width: 45%;
-    float: right;
+      float: right;
   }
 
   .district-six::after{
