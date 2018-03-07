@@ -33,7 +33,7 @@ table, td, th{
     }
 
   th{
-  font: 25px veranda;
+  font: 18px veranda;
   }
 
 
@@ -68,12 +68,24 @@ table, td, th{
       padding-top: 15em;
     }
 
-
     .left-when-wide::after{
       content: "";
       display: table;
       clear: both;
     }
 
+  .city img{
+    padding-right: 5px;
+    float: left;
+  }
+  .city::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .table{
+    margin-top: 3em;
+  }
 
     }
