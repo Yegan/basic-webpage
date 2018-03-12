@@ -6,6 +6,15 @@
   padding: 0 20px;
   box-sizing: border-box; }
 
+.personal img{
+  float: right;
+}
+.personal::after{
+  content: "";
+  display: table;
+  clear: both;}
+
+
 
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -33,10 +42,13 @@ td {
   border-bottom: 1px solid #E1E1E1; }
 th:first-child,
 td:first-child {
-  padding-left: 0; }
+  padding-left: 0;
+  font-size: 18px; }
 th:last-child,
+
 td:last-child {
-  padding-right: 0; }
+  padding-right: 0;
+  font-size: 18px; }
 
 
 
@@ -45,6 +57,16 @@ td:last-child {
       width: 1024px;
       margin: auto;
     }
+.personal{
+  padding-right: 22em;
+}
+    .personal img{
+      float:right;
+              }
+          .personal::after{
+            content: "";
+            display: table;
+            clear: both;}
 
     .left-when-wide img{
       float: left;
@@ -88,11 +110,13 @@ td:last-child {
 }
 
 p {
-  margin-top: 0; }
+  font-size: 18px;
+  margin-top: 0;
+  padding-right: 3em;}
 
-  .container {
-    width: 85%;
-    padding: 0; }
+
+
+
 
 
     }
